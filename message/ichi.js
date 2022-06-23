@@ -806,7 +806,7 @@ cap += `├ *Followers:* ${getigstalk.graphql.user.edge_followed_by.count} \n`
 cap += `├ *Following:* ${getigstalk.graphql.user.edge_follow.count} \n`
 cap += `├ *Private:* ${getigstalk.graphql.user.is_private ? "Private" : "Not Private"} \n`
 cap += `├ *Bio:* ${getigstalk.graphql.user.biography ? getigstalk.graphql.user.biography : "No Bio"} \n│\n`
-cap += `└──「 *I C Z A* 」`
+cap += `└──「 *K A N N A* 」`
 sendFileFromUrl(from, getigstalk.graphql.user.profile_pic_url_hd, cap)
 } catch (err) {
     textImg(ind.err(chats.split(" ")[0].split(prefix)[1], err))    
@@ -969,7 +969,7 @@ let sifugtgfrasdjkfhsdj = `┌──「 *YTMP3* 」
 ├ *Duration:* ${getmp3.duration}
 ├ *Size:* ${getmp3.medias[7].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *K A N N A* 」`
 
 sendFileFromUrl(from, getmp3.thumbnail, sifugtgfrasdjkfhsdj, msg)
 sendFileFromUrl(from, getmp3.medias[7].url, sifugtgfrasdjkfhsdj, msg)
@@ -994,7 +994,7 @@ let asjdghfashgfashgf = `┌──「 *YTMP4* 」
 ├ *Duration:* ${getmp4.duration}
 ├ *Size:* ${getmp4.medias[1].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *K A N N A* 」`
 sendFileFromUrl(from, getmp4.thumbnail, asjdghfashgfashgf, msg)
 sendFileFromUrl(from, getmp4.medias[1].url, asjdghfashgfashgf, msg)
 } catch (err) {
@@ -1016,7 +1016,7 @@ for (i of getyts.all) {
     afhasuyduytsduyt += `├ *Title:* ${i.title}\n`
     afhasuyduytsduyt += `├ *Url* ${i.url}\n│\n`
 }
-afhasuyduytsduyt += "└──「 *I C Z A* 」"
+afhasuyduytsduyt += "└──「 *K A N N A* 」"
 sendFileFromUrl(from, getyts.all[0].image, afhasuyduytsduyt)
                     } catch (err) {
                         textImg(ind.err(chats.split(" ")[0].split(prefix)[1], err))    
@@ -1036,7 +1036,7 @@ let ashgasfgashfash = `┌──「 *PLAY* 」
 ├ *Duration:* ${getplay.duration}
 ├ *Size:* ${getplay.medias[7].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *K A N N A* 」`
 
 sendFileFromUrl(from, getplay.thumbnail, ashgasfgashfash, msg)
 sendFileFromUrl(from, getplay.medias[7].url, ashgasfgashfash, msg)
@@ -1097,7 +1097,7 @@ try {
     const getig = await hxz.igdl(q)
 let gasdfghasfghasfy = `┌──「 *INSTAGRAM* 」
 ├ *Request By:* ${pushname}
-└──「 *I C Z A* 」`
+└──「 *K A N N A* 」`
 
 for (i of getig.medias) {
 	if (i.type == 'video') {
@@ -1143,7 +1143,7 @@ let asbnfvashfgyjas = `┌──「 *G E M P A* 」
 ├ *Potention:* ${data.Infogempa.gempa.Potensi}
 ├ *Effect:* ${data.Infogempa.gempa.Dirasakan}
 │
-└──「 *I C Z A* 」 `
+└──「 *K A N N A* 」 `
 
 sendFileFromUrl(from, "https://data.bmkg.go.id/DataMKG/TEWS/"+data.Infogempa.gempa.Shakemap, asbnfvashfgyjas)
 
