@@ -514,6 +514,20 @@ case prefix+'hidetag':
                      textImg(ind.adminsOnly())
                 }
             break
+case prefix+'tagall':
+                if (!isGroup) return textImg(ind.groupOnly())
+                if (isGroupAdmins || isOwner) {
+		let teks = `══✪〘 *👥 Tag All* 〙✪══
+ 
+ ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+                for (let mem of participants) {
+                teks += `⭔ @${mem.id.split('@')[0]}\n`
+                }
+                ichi.sendMessage(from, { text : teks , mentions: groupMembers.map(a => a.id)})
+                } else {
+                     textImg(ind.adminsOnly())
+                }
+            break
 
 // Anime Menu
 case prefix+"anime":
