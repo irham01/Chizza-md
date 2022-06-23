@@ -26,21 +26,21 @@ exports.rent = () => {
 Sebelum melakukan pembayaran, hubungi dahulu owner https://wa.me/6285755495437
     
 ┌──「 *ADD GROUP* 」
-├ *1 Minggu:* Rp.5.000
-├ *1 Bulan:* Rp.10.000
+├ *1 Minggu:* Rp.10.000
+├ *1 Bulan:* Rp.20.000
 │
 ├「 *Premium* 」
-├ *1 Bulan*: Rp.5.000
+├ *1 Bulan*: Rp.15.000
 │
-└──「 *I C Z A* 」 
+└──「 *K A N N A* 」 
     
 ┌──「 *P A Y M E N T* 」
 │
-├ *Dana:* 6285895618295
-├ *Gopay:* 6285895618295
-├ *Pulsa:* 6285895618295 (+5k)
+├ *Dana:* 6285601517617
+├ *Shopeepay:* 6285601517617
+├ *Pulsa:* 6285601517617 (+5k)
 │
-└──「 *I C Z A* 」 
+└──「 *K A N N A* 」 
     
 *NOTE:* Untuk Pulsa Akan Dikenakan Tambahan Rp.5.000`
 }
@@ -49,11 +49,11 @@ return `┌──「 *D O N A T E* 」
 │
 ├ Beri Semangat Owner!
 │
-├ *Dana:* 6285895618295
-├ *Gopay:* 6285895618295
-├ *Pulsa:* 6285895618295 (+5k)
+├ *Dana:* 6285601517617
+├ *Shopeepay:* 6285601517617
+├ *Pulsa:* 6285601517617 (+5k)
 │
-└──「 *I C Z A* 」 `
+└──「 *K A N N A* 」 
 
 }
 exports.menu = (prefix, salam, time) => {
@@ -62,10 +62,6 @@ return `┌──「 *I C Z A* 」
 ├ *${time}*
 │
 ├ *Note:* Bot Masih Dalam Program Beta.
-├ Jika Bot Tidak Merespon Di Grup Silahkan Gunakan Di Private Chat!
-│
-├ *Iklan:* Menjual Otp Nomor Luar Negeri.Gunakan ${prefix}otp
-├ *Iklan:* Menjual RDP/VPS Murah.Gunakan ${prefix}rdp
 │
 ├「 ABOUT-MENU 」
 ├ ${prefix}owner
