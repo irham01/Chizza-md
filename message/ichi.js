@@ -217,8 +217,7 @@ if (isOwner){
 // Please Don't Change This T_T	    
 	    
 const menuBut = [
-    {index: 1, urlButton: {displayText: 'Source Code', url: 'https://github.com/ichizza/Chizza-md'}}, // Please Don't Change This T_T	 
-    {index: 2, callButton: {displayText: 'Owner', phoneNumber: '+6285755495437'}},
+    {index: 2, callButton: {displayText: 'Owner', phoneNumber: '+6285601517617'}},
     {index: 3, quickReplyButton: {displayText: 'MENU', id: prefix+'allmenu'}},
     {index: 4, quickReplyButton: {displayText: 'RULES', id: prefix+'rules'}},
 ]
@@ -263,15 +262,15 @@ case prefix+"owner":
     for (let x of ownerNumber) {
         const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
         + 'VERSION:3.0\n' 
-        + 'FN:I C H I\n' // full name
+        + 'FN:I R H A M\n' // full name
         + 'ORG:SenyaTeam;\n' // the organization of the contact
-        + 'TEL;type=CELL;type=VOICE;waid=6285755495437:+62 857 5549 5437\n' // WhatsApp ID + phone number
+        + 'TEL;type=CELL;type=VOICE;waid=6285601517617:+62 856 0151 7617\n' // WhatsApp ID + phone number
         + 'END:VCARD'
 ichi.sendMessage(
 from,
 { 
     contacts: { 
-        displayName: 'I C H I', 
+        displayName: 'I R H A M', 
         contacts: [{ vcard }] 
     }
 }
