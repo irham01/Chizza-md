@@ -53,11 +53,11 @@ return `┌──「 *D O N A T E* 」
 ├ *Shopeepay:* 6285601517617
 ├ *Pulsa:* 6285601517617 (+5k)
 │
-└──「 *K A N N A* 」 
+└──「 *K A N N A* 」 `
 
 }
 exports.menu = (prefix, salam, time) => {
-return `┌──「 *I C Z A* 」
+return `┌──「 *K A N N A* 」
 ├ *Selamat ${salam}*
 ├ *${time}*
 │
@@ -135,7 +135,7 @@ return `┌──「 *I C Z A* 」
 │
 │ *ᶜᵒᵈᵉ ʷⁱᵗʰ ˡᵒᵛᵉ ᶠʳᵒᵐ ˢⁱᵈᵒᵃʳʲᵒ ❤*
 │
-└──「 *I C H I* 」 `
+└──「 *K A N N A* 」 `
 
 }
 
